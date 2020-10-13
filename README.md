@@ -64,7 +64,7 @@ heroku config:set DISABLE_COLLECTSTATIC=1
 Finally, push the project:
 
 ```
-git push heroku main
+git push heroku main:master
 ```
 
 You simply need to migrate the database and create a super user now:
