@@ -49,6 +49,8 @@ python manage.py runserver
 
 ### Deploy to heroku
 
+First of all, we need to work in the subfolder ``mysite``, so execute ``cd mysite`` before executing next commands.
+
 Before deploy, replace ``<your project name>`` in ``mysite/mysite/settings.py`` by the name of your project that you created before. Then setup the remote (link to send the website) using:
 
 ```
